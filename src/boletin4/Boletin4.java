@@ -18,7 +18,10 @@ public class Boletin4 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int ejercicio=Integer.parseInt(JOptionPane.showInputDialog("Elije que ejercicio quieres ejecutar\nindicando el numero (1,2,3,...)"));
+        int ejercicio=Integer.parseInt(JOptionPane.showInputDialog("Elije que "
+                + "ejercicio quieres ejecutar\n1: 4.1 Clase coche "
+                + "\n2: 4.2 Clase Satelite \n3: 4.3 Clase Cierculo "
+                + "\n4: 4.4 Clase Restaurante"));
         //selector de ejercicio
         switch (ejercicio){
         case 1: 
@@ -60,7 +63,9 @@ public class Boletin4 {
             rest1.get_comensales(); 
             rest1.ver_patatas();
             break;
-        default: break;
+        default: 
+            System.out.println("Ese ejercicio no existe");
+            break;
         
     }
     }
