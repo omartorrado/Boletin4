@@ -20,7 +20,7 @@ public class Boletin4 {
     public static void main(String[] args) {
         int ejercicio=Integer.parseInt(JOptionPane.showInputDialog("Elije que "
                 + "ejercicio quieres ejecutar\n1: 4.1 Clase coche "
-                + "\n2: 4.2 Clase Satelite \n3: 4.3 Clase Cierculo "
+                + "\n2: 4.2 Clase Satelite \n3: 4.3 Clase Circulo "
                 + "\n4: 4.4 Clase Restaurante"));
         //selector de ejercicio
         switch (ejercicio){
