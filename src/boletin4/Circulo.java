@@ -36,6 +36,7 @@ public class Circulo {
     }
     
     public double calcularLongitud(){
+        System.out.println(PI+" "+radio+" pi*radio= "+(PI*radio));
         return (2*PI*radio);
     }
 }
