@@ -6,6 +6,7 @@
 package boletin4;
 
 import javax.swing.JOptionPane;
+import java.util.Scanner;
 
 /**
  *
@@ -47,6 +48,17 @@ public class Boletin4 {
             Circulo c2 = new Circulo(10);
             System.out.println(c2.calcularArea());
             System.out.println(c2.calcularLongitud());
+            break;
+        case 4:
+            //ejercicio 4
+            Restaurante rest1=new Restaurante(100,50);
+            Scanner sc1=new Scanner(System.in);
+            rest1.get_comensales();
+            rest1.añadir_pulpo(sc1.nextInt());
+            rest1.get_comensales();
+            rest1.añadir_patatas(sc1.nextInt());
+            rest1.get_comensales(); 
+            rest1.ver_patatas();
             break;
         default: break;
         
