@@ -26,12 +26,12 @@ public class Restaurante {
     //Metodos
     public int get_comensales(){
         int pers_pulpo=(kg_pulpo/2)*3;
-        int pers_patatas=(kg_patatas/1)*3;
+        int pers_patatas=kg_patatas*3;
         if(pers_pulpo<pers_patatas){
-            System.out.println("Hay suficiente materia prima para "+pers_pulpo+" personas");
+            System.out.println("Hay suficiente materia prima para servir a "+pers_pulpo+" personas");
             return pers_pulpo;
             } else{
-            System.out.println("Hay suficiente materia prima para "+pers_patatas+" personas");
+            System.out.println("Hay suficiente materia prima para para servir a "+pers_patatas+" personas");
             return pers_patatas;
         }
         
