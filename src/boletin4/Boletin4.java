@@ -44,7 +44,7 @@ public class Boletin4 {
         case 3:
             //ejercicio 3
             Circulo c1=new Circulo();
-            c1.setRadio(Double.parseDouble(JOptionPane.showInputDialog("Introduce el valor del radio del circulo")));
+            c1.setRadio(Float.parseFloat(JOptionPane.showInputDialog("Introduce el valor del radio del circulo")));
             System.out.println("el radio es "+c1.getRadio());
             System.out.println("la longitud es de "+c1.calcularLongitud());
             System.out.println("el area es de "+c1.calcularArea());

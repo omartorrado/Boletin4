@@ -31,12 +31,12 @@ public class Circulo {
         return radio;
     }
     
-    public double calcularArea(){
-        return (Math.pow(radio,2)*PI);
+    public float calcularArea(){
+        return (float)(Math.pow(radio,2)*PI);
     }
     
-    public double calcularLongitud(){
+    public float calcularLongitud(){
         System.out.println(PI+" "+radio+" pi*radio= "+(PI*radio));
-        return (2*PI*radio);
+        return (float)(2*PI*radio);
     }
 }
